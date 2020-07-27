@@ -1,13 +1,60 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.mb-10{
+  margin-bottom: 10px!important;
+}
+
+.custom-card .ant-card-actions > li {
+  text-align: right!important;
+  padding: 0px 20px;
+  width: auto!important;
+  float: right;
+}
+
+.custom-card .ant-card-head-title {
+  text-align: center;
+}
+
+.custom-card .ant-card-body{
+  padding: 24px 50px;
+}
+
+.ques-count, .explanation-card{
+  width: 80%;
+  margin: auto!important;
+}
+
+.result-card {
+  width: 80%;
+  margin: auto!important;
+  margin-bottom: 20px!important;
+}
+
+.result-card .ant-card-body{
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.pass-icon {
+  font-size: 100px;
+  color: #008000b8!important;
+  margin-bottom: 20px!important;
+}
+
+.fail-icon {
+  font-size: 100px;
+  color: #e80d0f!important;
+  margin-bottom: 20px!important;
 }
